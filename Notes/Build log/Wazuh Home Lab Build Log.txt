@@ -1,0 +1,91 @@
+# Wazuh Home Lab Build Log
+
+## Session 1 — June 30, 2026
+
+### Completed
+- Planned overall project
+- Created project folder structure
+- Created GitHub repository
+- Installed VMware Workstation Pro
+- Created Ubuntu Server virtual machine
+- Installed Ubuntu Server
+- Configured networking
+- Configured storage
+- Enabled OpenSSH
+- Booted Ubuntu Server successfully
+
+### Lessons
+- Learned the purpose of NAT networking.
+- Learned why LVM was not required.
+- Learned Linux hostname conventions.
+- Learned the importance of documenting engineering decisions.
+
+### Next Session
+- Log into Ubuntu
+- Update Ubuntu
+- Install Open VM Tools
+- Learn basic Linux commands
+- Create VMware snapshot
+
+# Wazuh Home Lab Build Log
+
+## Session 2
+
+### Date
+
+July 1, 2026
+
+---
+
+## Objectives
+
+Prepare Ubuntu Server for Wazuh deployment.
+
+---
+
+## Completed
+
+- Logged into Ubuntu Server
+- Verified hostname
+- Verified network configuration
+- Verified internet connectivity
+- Updated Ubuntu repositories
+- Installed available updates
+- Verified Open VM Tools
+- Practiced essential Linux commands
+- Created VMware restore snapshot
+
+---
+
+## Linux Commands Learned
+
+```bash
+hostnamectl
+ip addr
+ping
+sudo apt update
+sudo apt upgrade
+pwd
+ls
+ls -la
+cd
+mkdir
+touch
+cp
+mv
+rm
+nano
+cat
+```
+
+---
+
+## Snapshot Created
+
+Milestone-02-Server-Preparation
+
+---
+
+## Ready For
+
+Milestone 3 – Wazuh Installation
