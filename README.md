@@ -4,8 +4,16 @@
 This project documents the design, deployment, and configuration of a cybersecurity home lab using Wazuh SIEM. The goal is to gain hands-on experience with Linux administration, security monitoring, threat detection, and SIEM technologies while building a professional portfolio for cybersecurity roles.
 
 ## Progress
-- ✅ Phase 1 Complete
-- ⏳ Phase 2 In Progress
+- ✅ Milestone 1 – Infrastructure Setup
+- ✅ Milestone 2 – Server Preparation
+- ⏳ Milestone 3 – Wazuh Installation
+- ⬜ Milestone 4 – Wazuh Configuration
+- ⬜ Milestone 5 – Windows Agent Deployment
+- ⬜ Milestone 6 – Detection & Monitoring
+- ⬜ Milestone 7 – Threat Hunting
+- ⬜ Milestone 8 – Hardening
+- ⬜ Milestone 9 – Documentation & GitHub Polish
+- ⬜ Milestone 10 – Portfolio Completion
 
 ## Goals
 - Build a professional Wazuh SIEM environment
