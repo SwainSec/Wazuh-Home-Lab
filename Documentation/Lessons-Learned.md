@@ -49,3 +49,13 @@ Every milestone should include:
 - VMware snapshot
 
 Documenting throughout the project produces a much higher quality portfolio than documenting everything at the end.
+
+## Phase 3 — Wazuh Installation
+Focused on deploying the core Wazuh platform and verifying successful operation.
+
+- Learned the Wazuh architecture.
+- Installed Wazuh Manager, Indexer, and Dashboard.
+- Verified services with `systemctl`.
+- Troubleshot installer download issues.
+- Reset the Wazuh administrator password.
+- Successfully logged into the dashboard.

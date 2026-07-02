@@ -6,8 +6,8 @@ This project documents the design, deployment, and configuration of a cybersecur
 ## Progress
 - ✅ Milestone 1 – Infrastructure Setup
 - ✅ Milestone 2 – Server Preparation
-- ⏳ Milestone 3 – Wazuh Installation
-- ⬜ Milestone 4 – Wazuh Configuration
+- ✅ Milestone 3 – Wazuh Installation
+- ⏳ Milestone 4 – Wazuh Configuration
 - ⬜ Milestone 5 – Windows Agent Deployment
 - ⬜ Milestone 6 – Detection & Monitoring
 - ⬜ Milestone 7 – Threat Hunting
