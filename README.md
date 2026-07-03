@@ -7,9 +7,9 @@ This project documents the design, deployment, and configuration of a cybersecur
 - ✅ Milestone 1 – Infrastructure Setup
 - ✅ Milestone 2 – Server Preparation
 - ✅ Milestone 3 – Wazuh Installation
-- ⏳ Milestone 4 – Wazuh Configuration
-- ⬜ Milestone 5 – Windows Agent Deployment
-- ⬜ Milestone 6 – Detection & Monitoring
+- ✅ Milestone 4 – Wazuh Configuration
+- ✅ Milestone 5 – Windows Agent Deployment
+- ⏳ Milestone 6 – Detection & Monitoring
 - ⬜ Milestone 7 – Threat Hunting
 - ⬜ Milestone 8 – Hardening
 - ⬜ Milestone 9 – Documentation & GitHub Polish
@@ -22,11 +22,16 @@ This project documents the design, deployment, and configuration of a cybersecur
 - Document every phase of the project for portfolio purposes
 
 ## Milestones / Tasks
-- [x] Deploy Ubuntu server and install Wazuh Manager, Indexer, and Dashboard
-- [ ] Deploy and manage Wazuh agents
-- [ ] Monitor Windows endpoints
-- [ ] Create custom detection rules
+
+- [x] Deploy Ubuntu Server and install Wazuh Manager, Indexer, and Dashboard
+- [x] Deploy and manage Wazuh Windows agent
+- [x] Verify endpoint communication and event collection
+- [ ] Detect malware using the EICAR test file
+- [ ] Configure File Integrity Monitoring (FIM)
 - [ ] Investigate and document security events
+- [ ] Create custom detection rules
+- [ ] Harden the Wazuh deployment
+- [ ] Finalize documentation and GitHub portfolio
 
 ## Lab Environment
 
