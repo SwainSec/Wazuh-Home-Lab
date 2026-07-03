@@ -68,9 +68,9 @@ This project documents the design, deployment, and configuration of a cybersecur
 | 10 | Portfolio Completion | ⏳ Not Started | [Phase-10-Portfolio-Completion.md](Documentation/Phase-10-Portfolio-Completion.md) |
 
 ## Lessons Learned
-> Fill this in as you go — this is often the section hiring managers read most closely, since it shows judgment, not just task completion.
+https://github.com/SwainSec/Wazuh-Home-Lab/blob/main/Notes/Build%20log/Wazuh%20Home%20Lab%20Build%20Log.txt
 
 - 
 
 ## Screenshots
-> Add dashboard screenshots, alert examples, or network diagrams here as the project progresses.
+https://github.com/SwainSec/Wazuh-Home-Lab/tree/main/Screenshots
