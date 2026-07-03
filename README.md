@@ -71,4 +71,4 @@ This project documents the design, deployment, and configuration of a cybersecur
 
 - 📘 [Lessons Learned](Documentation/Lessons-Learned.md)
 - 📷 [Screenshots](Screenshots/)
-- 📝 [Build Log](Notes/Build-Log.md)
+- 📝 [Build Log](Documentation/Build-Log.md)
