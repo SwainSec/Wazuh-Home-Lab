@@ -67,10 +67,8 @@ This project documents the design, deployment, and configuration of a cybersecur
 | 9 | Documentation & GitHub Polish | ⏳ Not Started | [Phase-09-Documentation-and-GitHub-Polish.md](Documentation/Phase-09-Documentation-and-GitHub-Polish.md) |
 | 10 | Portfolio Completion | ⏳ Not Started | [Phase-10-Portfolio-Completion.md](Documentation/Phase-10-Portfolio-Completion.md) |
 
-## Lessons Learned
-https://github.com/SwainSec/Wazuh-Home-Lab/blob/main/Notes/Build%20log/Wazuh%20Home%20Lab%20Build%20Log.txt
+## Project Resources
 
-- 
-
-## Screenshots
-https://github.com/SwainSec/Wazuh-Home-Lab/tree/main/Screenshots
+- 📘 [Lessons Learned](Documentation/Lessons-Learned.md)
+- 📷 [Screenshots](Screenshots/)
+- 📝 [Build Log](Notes/Build-Log.md)
