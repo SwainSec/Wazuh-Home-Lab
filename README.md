@@ -50,15 +50,22 @@ This project documents the design, deployment, and configuration of a cybersecur
 - Wazuh Indexer
 - Wazuh Dashboard
 
-## Phase Log
-> Link each phase to its own detailed write-up as you complete it.
+## Milestone Log
 
-| Phase | Description | Status | Notes |
-|-------|-------------|--------|-------|
-| Phase 1 | Server setup + Wazuh install | ✅ Complete | [Link to Phase 1 doc] |
-| Phase 2 | Agent deployment + endpoint monitoring | ⏳ In Progress | [Link to Phase 2 doc] |
-| Phase 3 | Custom detection rules | Not started | |
-| Phase 4 | Incident investigation walkthrough | Not started | |
+> Each milestone links to its detailed documentation upon completion.
+
+| Milestone | Description | Status | Documentation |
+|-----------|-------------|--------|---------------|
+| 1 | Infrastructure Setup | ✅ Complete | [Phase-01-Infrastructure.md](Documentation/Phase-01-Infrastructure.md) |
+| 2 | Server Preparation | ✅ Complete | [Phase-02-Server-Preparation.md](Documentation/Phase-02-Server-Preparation.md) |
+| 3 | Wazuh Installation | ✅ Complete | [Phase-03-Wazuh-Installation.md](Documentation/Phase-03-Wazuh-Installation.md) |
+| 4 | Wazuh Configuration | ✅ Complete | [Phase-04-Wazuh-Configuration.md](Documentation/Phase-04-Wazuh-Configuration.md) |
+| 5 | Windows Agent Deployment | ✅ Complete | [Phase-05-Agent-Deployment.md](Documentation/Phase-05-Agent-Deployment.md) |
+| 6 | Detection & Monitoring | ⏳ Not Started | [Phase-06-Detection-and-Monitoring.md](Documentation/Phase-06-Detection-and-Monitoring.md) |
+| 7 | Threat Hunting | ⏳ Not Started | [Phase-07-Threat-Hunting.md](Documentation/Phase-07-Threat-Hunting.md) |
+| 8 | Hardening | ⏳ Not Started | [Phase-08-Hardening.md](Documentation/Phase-08-Hardening.md) |
+| 9 | Documentation & GitHub Polish | ⏳ Not Started | [Phase-09-Documentation-and-GitHub-Polish.md](Documentation/Phase-09-Documentation-and-GitHub-Polish.md) |
+| 10 | Portfolio Completion | ⏳ Not Started | [Phase-10-Portfolio-Completion.md](Documentation/Phase-10-Portfolio-Completion.md) |
 
 ## Lessons Learned
 > Fill this in as you go — this is often the section hiring managers read most closely, since it shows judgment, not just task completion.
