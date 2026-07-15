@@ -198,37 +198,68 @@ Successfully validated the Wazuh deployment. All core services were active and t
 **Milestone 5 – Windows Agent Deployment**
 
 ### Objective
-Deploy a Windows endpoint, register it with the Wazuh Manager, and verify successful event collection.
+Deploy the Wazuh Windows Agent, register it with the Wazuh Manager, and verify successful endpoint communication.
 
 ### Completed
-- Generated Windows agent deployment package
-- Installed the Wazuh Agent on the Windows 10 host
-- Configured the agent to communicate with the Wazuh Manager
-- Started and verified the Wazuh Agent service
-- Registered endpoint `WIN10-JEREMY`
-- Confirmed endpoint status as **Active**
-- Verified endpoint communication with the Wazuh Manager
-- Generated multiple failed Windows logon attempts
-- Confirmed detection of Windows Event ID `4625`
-- Investigated events using the Threat Hunting dashboard
+- Downloaded and installed the Wazuh Windows Agent on the Windows 10 endpoint.
+- Configured the agent to communicate with the Wazuh Manager.
+- Assigned the agent name `WIN10-JEREMY`.
+- Started the Wazuh Agent service.
+- Verified successful registration with the Wazuh Manager.
+- Confirmed the endpoint appeared in the Wazuh Dashboard.
+- Validated agent status as **Active**.
+- Generated Windows Security events to test log collection.
+- Confirmed Windows Event ID `4625` (Failed Logon) was successfully collected and displayed in the Wazuh Dashboard.
 
-### Detection Validation
-Successfully detected:
-- Windows Event ID 4625
-- Failed authentication attempts
-- Endpoint telemetry from `WIN10-JEREMY`
-- Real-time event collection and indexing
+### Challenges Encountered
+- Corrected the Wazuh Manager IP address during agent configuration.
+- Verified Windows Firewall and network connectivity between the endpoint and the Wazuh Manager.
+- Confirmed the Wazuh Agent service was running after installation.
 
-### Skills Demonstrated
-- Linux Administration
-- Wazuh Administration
-- Windows Endpoint Monitoring
-- SIEM Deployment
-- Threat Hunting
-- Windows Event Log Analysis
-- Security Monitoring
-- Incident Investigation
-- Endpoint Registration and Management
+### Resolution
+Validated communication between the Windows endpoint and the Wazuh Manager by confirming agent registration and successful ingestion of Windows Security logs into the Wazuh Dashboard.
 
 ### Outcome
-Successfully deployed and enrolled a Windows endpoint into the Wazuh SIEM environment. Verified end-to-end telemetry collection and confirmed detection of failed Windows authentication events through the Threat Hunting dashboard.
+Successfully deployed the Windows endpoint, established secure communication with the Wazuh Manager, and verified end-to-end telemetry from the Windows system into the SIEM platform. This milestone completed the endpoint onboarding process and prepared the environment for advanced detection and monitoring activities.
+
+## Session 7 — July 14–15, 2026
+
+### Milestone
+**Milestone 6 – Detection and Monitoring**
+
+### Objective
+Configure File Integrity Monitoring (FIM), validate Windows endpoint telemetry, and confirm end-to-end alert ingestion into the Wazuh Dashboard.
+
+### Completed
+- Verified Wazuh Manager, Indexer, Dashboard, and Filebeat services.
+- Configured File Integrity Monitoring (FIM) on the Windows endpoint.
+- Added a custom monitored directory (`C:\FIM-Test`) with real-time monitoring enabled.
+- Restarted the Wazuh Windows Agent to apply the updated configuration.
+- Generated test events by creating, modifying, and deleting files in the monitored directory.
+- Confirmed FIM events were written to `/var/ossec/logs/alerts/alerts.json`.
+- Verified Syscheck rules for file creation and deletion.
+- Investigated why alerts were not appearing in the Wazuh Dashboard.
+- Confirmed Wazuh Indexer cluster health was GREEN.
+- Verified Filebeat service status and connectivity to the Indexer.
+- Loaded the Filebeat index template and validated communication with the Wazuh Indexer.
+- Confirmed creation of the `wazuh-alerts-*` index.
+- Verified Windows security events and FIM alerts were searchable in the Wazuh Dashboard Discover page.
+
+### Challenges Encountered
+- File Integrity Monitoring alerts were successfully generated but initially did not appear in the Wazuh Dashboard.
+- The `wazuh-alerts-*` index was not being populated as expected, requiring troubleshooting of the log ingestion pipeline.
+- Encountered authentication and command syntax issues while validating Indexer connectivity, which were resolved during the troubleshooting process.
+
+### Resolution
+Systematically validated each component of the Wazuh architecture:
+1. Windows Agent
+2. Wazuh Manager
+3. alerts.json
+4. Filebeat
+5. Wazuh Indexer
+6. Wazuh Dashboard
+
+After confirming Filebeat connectivity and loading the required index template, alert ingestion resumed successfully. The `wazuh-alerts-*` index was created and security events became visible within the Discover dashboard.
+
+### Outcome
+Successfully completed File Integrity Monitoring validation and confirmed end-to-end telemetry from the Windows endpoint through the Wazuh SIEM platform. This milestone demonstrated the ability to configure endpoint monitoring, troubleshoot SIEM data ingestion, validate Indexer health, and investigate security events using Wazuh.
